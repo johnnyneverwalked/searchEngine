@@ -1,0 +1,82 @@
+body{
+	margin:0;
+	padding:0;
+	font-size:15px;
+	background-color: #8CF
+}
+
+form{
+	text-align:center;
+}
+
+form fieldset {
+  padding:10px;
+  border-radius:10px;
+  width: 350px;
+}
+
+form label {
+	display:inline-block;
+	margin-bottom: 5px;
+	font-size:14px;
+}
+
+form input {
+	width:3em;
+}
+
+form input:invalid { background-color: white;}
+
+form button{
+	width:6em;
+	height:2em;
+}
+
+div{
+	display:block;
+	align-items:center;
+	margin-top:1em;
+}
+
+h1{
+	text-align:center;
+	margin-top:5em;
+}
+
+h2{
+	border-bottom: 2px solid black;
+	margin-right: 80%;
+}
+
+button{
+	display: inline-block;
+	background-color:#7AD;
+	line-height:2em;
+	font-weight:bold;
+	width:100px;
+}
+
+#fileupload input{
+	width:7.2em;
+}
+
+#url{
+	width:10em;
+}
+
+#searchbar {
+	width:30em; 
+}
+
+#upperdiv{
+	display:block;
+	margin-right:1em;
+}
+
+
+.fright{float:right;}
+.bold{font-weight:bold;}
+.italic{font-style:italic;}
+.left{text-align:left;}
+.right{text-align:right;}
+.center{text-align:center;}
